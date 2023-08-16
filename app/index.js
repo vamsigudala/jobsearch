@@ -22,7 +22,7 @@ export default function index() {
         <Stack.Screen options={{
           headerStyle:{backgroundColor:COLORS.lightWhite},
           headerShadowVisible: false,
-          headerLeft: () => ( <ScreenHeaderBtn iconUrl={icons.menu} dimension='70%'/>),
+          headerLeft: () => ( <ScreenHeaderBtn iconUrl={icons.menu} dimension='80%'/>),
           headerRight: () => (<ScreenHeaderBtn iconUrl={images.profile} dimension='100%' />),
           headerTitle:"",
         }}/>
